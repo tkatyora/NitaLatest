@@ -36,7 +36,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="{%static '../../static/NITACACRAIMAGES/murimiwangu.jpg'%}"
+            src="{%static '../static/NITACACRAIMAGES/murimiwangu.jpg'%}"
             class="img-fluid d-block w-100"
             alt="For Projects Guides"
           />
@@ -53,7 +53,7 @@
         </div>
         <div class="carousel-item" data-bs-interval="8000">
           <img
-            src="{% static '../../static/NITACACRAIMAGES/fowlrun.jpg'%}"
+            src="{% static '../static/NITACACRAIMAGES/fowlrun.jpg'%}"
             class="img-fluid d-block w-100"
             alt="Programmed Drone"
           />
@@ -71,7 +71,7 @@
         </div>
         <div class="carousel-item" data-bs-interval="9000">
           <img
-            src="{% static '../../static/NITACACRAIMAGES/murimi3.jpg'%}"
+            src="{% static '../static/NITACACRAIMAGES/murimi3.jpg'%}"
             class="img-fluid d-block w-100"
             alt="The spider web representing  website"
           />
@@ -107,7 +107,7 @@
       </button>
     </div>
   </section>
-  <section class="CommingProjects container text-start">
+  {% comment %} <section class="CommingProjects container text-start">
     <div class="services mb-5">
       <h1 class="p-4 text-center">
         Upcomming Projects
@@ -126,7 +126,7 @@
         <li>Project2 :FowRun Monitoring System</li>
         <li>Project3 : Women In The Markert</li>
       </ul>
-    </div>
+    </div> {% endcomment %}
 
     {% comment %}
     <div class="Project1">
@@ -285,7 +285,7 @@
       </div>
     </div>
     {% endcomment %}
-  </section>
+  {% comment %} </section>
   <section class="thanks mt-5 mx-sm-5 text-start">
     <div class="mx-sm-5">
       <h3>Thanks for choosing Nitacagra Softwares</h3>
@@ -296,8 +296,8 @@
       {% comment %}
       <p class="lead">leave a Comment below</p>
       {% endcomment %}
-    </div>
-  </section>
-</main>
+    {% comment %} </div> {% endcomment %}
+  {% comment %} </section> {% endcomment %} 
+{% comment %} </main> {% endcomment %}
 <script src="../../static/JS/main.js"></script>
 {% endblock content%}

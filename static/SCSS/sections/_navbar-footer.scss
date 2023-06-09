@@ -11,7 +11,7 @@
 
   color: $primary;
   // font-family: cursive;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bolder;
 
   .container-fluid {
@@ -39,8 +39,8 @@
   }
 
   .navbar-links {
-    margin-top: 7px;
-    // margin-left: 5px;
+    //margin-top: 7px;
+    margin-left: 5px;
 
 
     .navbar-nav {
@@ -127,10 +127,28 @@
 
 // footer
 footer {
+  .Whatsapp {
+    color: $green !important;
+    font-size: 1.5em;
+  }
+
+  .facebook {
+    color: $blue !important;
+  }
+
+  .a-tags {
+    a {
+
+      text-decoration: none;
+
+
+    }
+  }
+
   background-color: $secondary;
   color: $primary;
   margin-top: 5%;
-  font-size: 1.1em;
+  font-size: 1em;
 
   img {
     width: 10%;

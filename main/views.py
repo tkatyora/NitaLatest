@@ -19,7 +19,7 @@ def about(request):
         
     }
     
-    return render(request , 'Nitacagra/about.html',content)
+    return render(request , 'main/about.html',content)
 
 
 # testing code 

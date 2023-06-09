@@ -10760,7 +10760,7 @@ textarea.form-control-lg {
 }
 .menu {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bolder;
 }
 .menu hr {
@@ -10784,7 +10784,7 @@ textarea.form-control-lg {
   font-family: cursive;
 }
 .menu .navbar-links {
-  margin-top: 7px;
+  margin-left: 5px;
 }
 .menu .navbar-links .navbar-nav {
   font-size: 1em;
@@ -10841,7 +10841,17 @@ footer {
   background-color: #212529;
   color: #fff;
   margin-top: 5%;
-  font-size: 1.1em;
+  font-size: 1em;
+}
+footer .Whatsapp {
+  color: #198754 !important;
+  font-size: 1.5em;
+}
+footer .facebook {
+  color: #0d6efd !important;
+}
+footer .a-tags a {
+  text-decoration: none;
 }
 footer img {
   width: 10%;
@@ -10904,7 +10914,7 @@ body {
   font-size: 1.5em;
 }
 .hero-index .display {
-  font-size: 1.7em;
+  font-size: 1.6em;
   font-family: cursive;
 }
 .hero-index .project1 {
@@ -10954,10 +10964,6 @@ body {
 .services .col-4 img {
   padding-left: 1px;
   padding-right: 1px;
-}
-
-.service-hero .banner {
-  margin: 0;
 }
 
 .regester-hero {
@@ -11018,47 +11024,48 @@ body {
   font-size: 2rem;
   font-family: cursive;
 }
-.products-hero .trial-projects {
-  margin-top: 6%;
-}
-.products-hero .trial {
-  margin-top: 3%;
+
+.service-hero .banner {
+  margin: 0;
 }
 
 #greeting {
-  color: #0d6efd !important;
+  color: #212529 !important;
 }
 
 #greeting:hover {
-  color: #198754 !important;
+  color: #0d6efd !important;
   font-family: cursive;
   font-weight: bolder;
   cursor: pointer;
 }
 
-.list-section .col-3 .txt a {
-  color: #212529 !important;
-  text-decoration: none;
-  font-size: 1.2em;
+.specialOffer {
+  background-color: #0dcaf0 !important;
+  position: absolute;
+  font-family: cursive;
+  margin-right: 0;
 }
-.list-section .col-3 img {
-  width: 15%;
-  height: 15%;
+.specialOffer h5 {
+  font-size: 0.9em;
+  margin-left: 1px;
+  padding: 5px;
 }
 
 .price {
   font-weight: bolder;
+  font-size: 0.8em;
+  font-family: cursive;
+  color: #0d6efd !important;
 }
 
-.specialOffer {
-  background-color: #dc3545 !important;
-  width: 160px;
-  border-radius: 5px;
-  font-size: 1em;
-  position: absolute;
-  margin-top: 20px;
-  font-style: italic;
-  margin-left: 7%;
+.buybutton {
+  display: inline-flex;
+  margin-left: -15px;
+}
+
+.icons {
+  font-size: 4em;
 }
 
 .a-tags a {

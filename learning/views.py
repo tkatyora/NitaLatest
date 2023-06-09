@@ -8,5 +8,5 @@ def blog(request):
 
 
 def newProjects(request):
-    return render(request , 'Nitacagra/newProjects.html')
+    return render(request , 'learning/newProjects.html')
     

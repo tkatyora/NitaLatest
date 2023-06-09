@@ -14,6 +14,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 from pathlib import Path
 import os
 import environ
+import dj_database_url
 
 
 env = environ.Env()
@@ -31,10 +32,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = os.environ.get('SECRET_KEY')
-SECRET_KEY = 'django-insecure-=w27w(#73g8dq_s*8to%hzb@d2nq92x2x$lkdhii+b16gqm)-4'
+SECRET_KEY = os.environ.get('NITACAGRA_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 if DEBUG :
     #developent
@@ -59,6 +60,8 @@ else:
     #Using external database
     # Database
    #https://docs.djangoproject.com/en/4.1/ref/settings/#databases
+   
+   
 
     DATABASES = {
         'default':dj_database_url.parse(env('DATABASE_URL'))
